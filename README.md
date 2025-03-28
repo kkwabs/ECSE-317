@@ -8,7 +8,7 @@ Labs and Assignments for ECSE 317, Computer Design - FPGAs
 
 
 ## Assignment 5
-
+Synthesis report of N-bit ALU
 
 ## Assignment 6
 
