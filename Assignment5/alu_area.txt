@@ -1,0 +1,31 @@
+ 
+****************************************
+Report : area
+Design : alu_n_bit
+Version: H-2013.03-SP5
+Date   : Thu Feb 27 15:29:07 2025
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    class (File: /home2/synopsys/synthesis/libraries/syn/class.db)
+
+Number of ports:                           29
+Number of nets:                            36
+Number of cells:                            8
+Number of combinational cells:              0
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                          0
+Number of references:                       8
+
+Combinational area:                424.000000
+Buf/Inv area:                       56.000000
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                   424.000000
+Total area:                 undefined
+1

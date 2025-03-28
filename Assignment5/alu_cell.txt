@@ -1,0 +1,28 @@
+ 
+****************************************
+Report : cell
+Design : alu_n_bit
+Version: H-2013.03-SP5
+Date   : Thu Feb 27 15:28:58 2025
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+ALU_i_0                   ALU_1bit_7                      53.000000 h
+ALU_i_1                   ALU_1bit_6                      53.000000 h
+ALU_i_2                   ALU_1bit_5                      53.000000 h
+ALU_i_3                   ALU_1bit_4                      53.000000 h
+ALU_i_4                   ALU_1bit_3                      53.000000 h
+ALU_i_5                   ALU_1bit_2                      53.000000 h
+ALU_i_6                   ALU_1bit_1                      53.000000 h
+ALU_i_7                   ALU_1bit_0                      53.000000 h
+--------------------------------------------------------------------------------
+Total 8 cells                                             424.000000
+1
