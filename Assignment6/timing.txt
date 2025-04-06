@@ -1,0 +1,36 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : coke_machine
+Version: H-2013.03-SP5
+Date   : Mon Mar 31 09:50:39 2025
+****************************************
+
+Operating Conditions: nom_pvt   Library: class
+Wire Load Model Mode: top
+
+  Startpoint: money_reg_reg[7]
+              (rising edge-triggered flip-flop)
+  Endpoint: current_money[7]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  coke_machine       05x05                 class
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  money_reg_reg[7]/CP (FD1)                0.00       0.00 r
+  money_reg_reg[7]/Q (FD1)                 2.36       2.36 r
+  current_money[7] (out)                   0.00       2.36 r
+  data arrival time                                   2.36
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

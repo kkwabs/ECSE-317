@@ -1,0 +1,106 @@
+ 
+****************************************
+Report : cell
+Design : coke_machine
+Version: H-2013.03-SP5
+Date   : Mon Mar 31 09:51:37 2025
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    p - parameterized
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+ALU                       alu_n_bit_n8                    448.000000
+                                                                    h, p
+U61                       AO3             class           2.000000  
+U62                       AO2             class           2.000000  
+U63                       AO7             class           2.000000  
+U64                       AO7             class           2.000000  
+U65                       AO7             class           2.000000  
+U66                       AO4             class           2.000000  
+U67                       ND2             class           1.000000  
+U68                       ND2             class           1.000000  
+U69                       NR2             class           1.000000  
+U70                       AN3             class           2.000000  
+U71                       AO2             class           2.000000  
+U72                       IV              class           1.000000  
+U73                       AO7             class           2.000000  
+U74                       ND4             class           2.000000  
+U75                       IV              class           1.000000  
+U76                       IV              class           1.000000  
+U77                       IV              class           1.000000  
+U78                       ND2             class           1.000000  
+U79                       AO7             class           2.000000  
+U80                       AO4             class           2.000000  
+U81                       AO4             class           2.000000  
+U82                       AO4             class           2.000000  
+U83                       AO4             class           2.000000  
+U84                       AO4             class           2.000000  
+U85                       AO4             class           2.000000  
+U86                       AO4             class           2.000000  
+U87                       AO4             class           2.000000  
+U88                       EON1            class           3.000000  
+U89                       EON1            class           3.000000  
+U90                       EON1            class           3.000000  
+U91                       EON1            class           3.000000  
+U92                       EON1            class           3.000000  
+U93                       EON1            class           3.000000  
+U94                       EON1            class           3.000000  
+U95                       EON1            class           3.000000  
+U96                       AO6             class           2.000000  
+U97                       IV              class           1.000000  
+U98                       IV              class           1.000000  
+U99                       AO6             class           2.000000  
+U100                      NR2             class           1.000000  
+U101                      ND2             class           1.000000  
+U102                      AO7             class           2.000000  
+U103                      ND2             class           1.000000  
+U104                      AO7             class           2.000000  
+U105                      IV              class           1.000000  
+U106                      NR2             class           1.000000  
+U107                      ND4             class           2.000000  
+U108                      IV              class           1.000000  
+U109                      AO7             class           2.000000  
+U110                      IV              class           1.000000  
+U111                      AO3             class           2.000000  
+U112                      IV              class           1.000000  
+U113                      AO7             class           2.000000  
+U114                      IV              class           1.000000  
+U115                      ND2             class           1.000000  
+U116                      OR3             class           2.000000  
+alu_f_reg[0]              FD1             class           7.000000  n
+alu_input_reg[0]          FD1             class           7.000000  n
+alu_input_reg[1]          FD1             class           7.000000  n
+alu_input_reg[2]          FD1             class           7.000000  n
+alu_input_reg[3]          FD1             class           7.000000  n
+alu_input_reg[4]          FD1             class           7.000000  n
+alu_input_reg[6]          FD1             class           7.000000  n
+change_reg[0]             FD1             class           7.000000  n
+change_reg[1]             FD1             class           7.000000  n
+change_reg[2]             FD1             class           7.000000  n
+change_reg[3]             FD1             class           7.000000  n
+change_reg[4]             FD1             class           7.000000  n
+change_reg[5]             FD1             class           7.000000  n
+change_reg[6]             FD1             class           7.000000  n
+change_reg[7]             FD1             class           7.000000  n
+coins_inserted_reg        FD1             class           7.000000  n
+coke_dropper_reg          FD1             class           7.000000  n
+money_reg_reg[0]          FD1             class           7.000000  n
+money_reg_reg[1]          FD1             class           7.000000  n
+money_reg_reg[2]          FD1             class           7.000000  n
+money_reg_reg[3]          FD1             class           7.000000  n
+money_reg_reg[4]          FD1             class           7.000000  n
+money_reg_reg[5]          FD1             class           7.000000  n
+money_reg_reg[6]          FD1             class           7.000000  n
+money_reg_reg[7]          FD1             class           7.000000  n
+state_reg[0]              FD1             class           7.000000  n
+state_reg[1]              FD1             class           7.000000  n
+--------------------------------------------------------------------------------
+Total 84 cells                                            737.000000
+1
